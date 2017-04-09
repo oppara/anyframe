@@ -10,6 +10,7 @@ function _anyframe-action-put()
     CURSOR=$#BUFFER
     # redisplay the command line
     zle -R -c
+    zle clear-screen
   else
     print -z -f '%s' "$*"
   fi

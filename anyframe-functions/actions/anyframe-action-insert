@@ -10,6 +10,7 @@ function _anyframe-action-insert()
     CURSOR=$#LBUFFER
     # redisplay the command line
     zle -R -c
+    zle clear-screen
   else
     print -z -f '%s' "$*"
   fi
