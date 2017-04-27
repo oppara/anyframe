@@ -1,6 +1,6 @@
 # require ghq (https://github.com/motemen/ghq)
 
-ghq list
+ghq list --full-path
 
 # Local Variables:
 # mode: Shell-Script
