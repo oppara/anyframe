@@ -1,6 +1,6 @@
 anyframe-source-ssh-host \
   | anyframe-selector-auto \
-  | anyframe-action-insert -q
+  | anyframe-action-insert -q ssh
 
 # Local Variables:
 # mode: Shell-Script
